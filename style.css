@@ -16,8 +16,7 @@
 body {
   background-image: url(background.jpg);
   text-align: center;
-  background-repeat: round;
-}
+  }
 h1, h5 {
   font-weight: bolder;
   text-shadow: 2px 2px var(--dark);
@@ -32,21 +31,19 @@ h5 {
 p {
   color: var(--dark);
 }
-.navbar ul {
-  display: grid;
-  grid-gap: 20px;
-  list-style: none;
-  padding: 10px;
-  grid-template-columns: repeat(3, 1fr);
-}
 
 .navbar a{
+  background-color: #2E2836;
   color: var(--accent);
   display: grid;
   font-weight: bold;
-  padding: 1rem;
   text-align: center;
   font-size: 1.2rem;
+  padding: 10px;
+}
+
+.navbar a:hover {
+  background-color: var(--primary);
 }
 
 .card-body {
