@@ -1,0 +1,15 @@
+/* Name: Kayla Noakes
+  Assignment: Pretty About You
+  Date: June 15 2020
+  File: style.css*/
+
+body {background-color:#009999;}
+body {text-align: justify;
+      font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif}
+h1 {font-family: Impact, Charcoal, sans-serif; text-shadow: 7px 7px #ff9999;
+    font-size: 44px;}
+h3 {font-size: 24px;}
+h3 {color: #ff9999;}
+footer {font-style: italic;}
+nav {font-size: 30px; font-family: Impact, Charcoal, sans-serif;}
+ul {list-style-type: square; color:#e6e600; }

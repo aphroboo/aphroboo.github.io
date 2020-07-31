@@ -1,0 +1,17 @@
+body{
+  background-image: url(pencils.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: 'Notable', sans-serif;
+  color: #0D181C;
+}
+h1 {text-align: center;}
+table{ text-align: center; margin-left: auto; margin-right: auto; width: 200px;}
+table, th, td {border: 3px #2A9D8F dashed; opacity: .95;
+border-radius: 5px}
+th,td {padding: 11px; text-align: center;}
+.graphiclec,.painting,.soc {background-color: #e9c46a }
+.graphiclab,.draw,.ethics {background-color: #3A6C7E}
+.free {background-color: #e76f51;}
+td {background-color: #eeeeee;}
+th{background-color: white;}
