@@ -3,18 +3,34 @@
     July 31 2020
     style.css  */
 
+
+
+    :root{
+    --light: #D7DEDC;
+    --primary: #5B85AA;
+    --accent: #CD5334;
+    --dark: #2E2836;
+
+    }
+
 body {
   background-image: url(background.jpg);
   text-align: center;
 }
+h1, h5 {
+  font-weight: bolder;
+  text-shadow: 2px 2px var(--dark);
+  color: var(--primary);
+}
 h1 {
   font-size: 5em;
-  font-weight: bolder;
-
-  text-shadow: 2px 2px black;
-  color: orange;
 }
-
+h5 {
+  font-size: 3em;
+}
+p {
+  color: var(--dark);
+}
 .navbar ul {
   display: grid;
   grid-gap: 20px;
@@ -24,10 +40,19 @@ h1 {
 }
 
 .navbar a{
-  color: orange;
+  color: var(--accent);
   display: grid;
   font-weight: bold;
   padding: 1rem;
   text-align: center;
   font-size: 1.2rem;
+}
+
+.card-body {
+  text-align: left;
+}
+
+.card-img {
+  border-radius: 10px;
+  border: dotted 5px var(--primary);
 }
