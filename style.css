@@ -16,7 +16,9 @@
 body {
   background-image: url(background.jpg);
   text-align: center;
-  }
+  background-repeat: round;
+  font-family: 'Quicksand', sans-serif;
+}
 h1, h5 {
   font-weight: bolder;
   text-shadow: 2px 2px var(--dark);
@@ -31,15 +33,18 @@ h5 {
 p {
   color: var(--dark);
 }
+.navbar {
+  list-style:none;
+
+}
 
 .navbar a{
-  background-color: #2E2836;
   color: var(--accent);
   display: grid;
   font-weight: bold;
+  padding: 1rem;
   text-align: center;
   font-size: 1.2rem;
-  padding: 10px;
 }
 
 .navbar a:hover {
@@ -60,8 +65,8 @@ p {
   color: var(--light);
 }
 .two{
-  background-color: var(--light);
-  color: var(--dark);
+  background-color: var(--primary);
+  color: var(--light);
 }
 
 .list-group {
@@ -70,6 +75,14 @@ p {
 }
 
 .card-header {
-  background-color: var(--primary);
+  background-color: var(--accent);
   color: var(--light);
+}
+
+.container {
+  background-color: var(--light)
+}
+
+form {
+  border: 10px black;
 }

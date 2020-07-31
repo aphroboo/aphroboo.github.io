@@ -3,30 +3,33 @@
 
 <head>
   <meta charset="utf-8">
-  <script>
-    function printQuery() {
-      var query = window.location.search.substring(1);
-      var vars = query.split("&");
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">  <script>
+      function printQuery() {
+        var query = window.location.search.substring(1);
+        var vars = query.split("&");
 
-      for (var i = 0; i < vars.length; i++) {
-        var pair = vars[i].split("=");
-        document.write(pair[0] + ": " + pair[1] + "<br />");
+        for (var i = 0; i < vars.length; i++) {
+          var pair = vars[i].split("=");
+          document.write(pair[0] + ": " + pair[1] + "<br />");
+        }
       }
-    }
-  </script>
-  <link rel="stylesheet" href="style.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+    </script>
 
-  <title>Thank You</title>
-</head>
+
+
+    <title>Thank You</title>
+  </head>
 
 <body class="thankyou">
   <div class="container">
-    <ul class="navbar navbar-dark bg-dark">
+    <h1>Thank you!</h1>
+    <ul class="navbar navbar-dark" style="background-color: #2E2836;">
       <li><a href="index.html"> About Me </a></li>
 
       <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Past Work</a>
+        <a class="nav-link dropdown-toggle" data-toggle="dropdown"  role="button" aria-haspopup="true" aria-expanded="false">Past Work</a>
         <div class="dropdown-menu">
           <a class="dropdown-item" href="PrettyAboutMe/index.html">Pretty About Me</a>
           <a class="dropdown-item" href="FallSchedule/index.html">My Fall Schedule</a>
@@ -34,10 +37,13 @@
           <div class="dropdown-divider"></div>
         </div>
       </li>
-      <li><a href="contact.html"> Contact Us </a></li>
+      <li><a href="contact.html"> Find Me! </a></li>
     </ul>
     <h2>Thank you for submitting your information. I will be in touch shortly!</h2>
 
+    <script>
+      printQuery();
+    </script>
 
 
 
@@ -46,9 +52,7 @@
     <nav class="navbar-light" style="background-color: #2E2836; text-align: center; color:  #D7DEDC">
       <a class="footer"> Kayla Noakes &#169; 2020 </a>
     </nav>
-    <script>
-      printQuery();
-    </script>
+
   </div>
 </body>
 
