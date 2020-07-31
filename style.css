@@ -16,6 +16,7 @@
 body {
   background-image: url(background.jpg);
   text-align: center;
+  background-repeat: round;
 }
 h1, h5 {
   font-weight: bolder;
@@ -55,4 +56,23 @@ p {
 .card-img {
   border-radius: 10px;
   border: dotted 5px var(--primary);
+}
+
+.one {
+  background-color: var(--dark);
+  color: var(--light);
+}
+.two{
+  background-color: var(--light);
+  color: var(--dark);
+}
+
+.list-group {
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.card-header {
+  background-color: var(--primary);
+  color: var(--light);
 }
